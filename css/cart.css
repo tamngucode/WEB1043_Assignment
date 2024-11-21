@@ -1,0 +1,112 @@
+.p2Cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cacSpCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dongSpCart {
+  display: flex;
+}
+
+.hinhCartThongTinCart {
+  display: flex;
+  flex-basis: 60%;
+}
+.hinhCart {
+  flex-basis: 30%;
+}
+
+.ThongTinCart {
+  padding: 10px;
+}
+.hinhCart img {
+  width: 100px;
+}
+
+.soLuongCartNutXoaCart {
+  display: flex;
+  flex-basis: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.soLuongCart > input {
+  width: 50%;
+  text-align: center;
+  height: 50px;
+  background: #f0adef;
+  border: 2px solid #e2a8ec;
+  appearance: none;
+}
+
+.thanhToanCartXoaCart {
+  display: flex;
+  margin: 20px;
+}
+
+.thanhToanCart,
+.XoaCart {
+  padding: 10px;
+}
+
+.thanhToanCart {
+  border: 1px rgb(215, 55, 157) solid;
+  background-color: rgb(186, 56, 169);
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+.XoaCart {
+  background-color: rgb(230, 103, 226);
+  border: 1px rgb(242, 104, 214) solid;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.NutXoaCart > button {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+.khuyenMaiCartTongTienCartVATCartTongTTCart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clskhuyenMaiCart {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  padding-left: 270px;
+}
+
+.clsTongTienCartVATCartTongTTCart {
+  flex-basis: 40%;
+  padding-right: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+.codekhuyenMai {
+  text-transform: capitalize; /* Chuyển thành ký tự hoa   */
+}
+
+.giamGiaCart {
+  display: none;
+}

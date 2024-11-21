@@ -1,0 +1,7 @@
++ Biến toàn cục
+inventory = []; // mảng lưu trữ các mặt hàng demo ở trang chủ
+cart = []; // giỏ hàng, mảng lưu trữ các mặt hàng
+data - khóa trong localStorage - lưu thông tin giỏ hàng 
+nbdkm - khóa trong localStorage - lưu thông tin ngày bắt đầu khuyến mãi 
+
++ Thao tác trên mảng, trên HTML

@@ -1,0 +1,24 @@
+Cấu trúc 1 dòng sản phẩm gồm có 4 sản phẩm
+     <div class="dongSp">
+   
+       <div class="Sp">
+            <div class="hinhSp">
+            <img src="imgs/sp1.jpg" alt="Hình sản phẩm 1"/>
+            </div>
+            <div class="tenSp"> SẢN PHẨM 1</div>
+            <div class="thongtinSp"> Điện mặt trời mái nhà, điện sinh khối, thủy điện nhỏ... </div>
+            <div class="giaNutMua">
+                <div class="gia">100000 VNĐ</div>
+                <div class="NutMua">Thêm vào giỏ</div>
+            </div>
+       </div>
+   
+    </div>
+
+
+
+
+
+
+    
+

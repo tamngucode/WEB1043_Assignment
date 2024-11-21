@@ -1,0 +1,56 @@
+.tieudeP2 h1 {
+  text-align: center;
+  margin: 10px;
+}
+.dongSp {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* nếu co màn hình lại, không đủ không gian thì tự động wrap */
+  margin: 10px;
+}
+
+.Sp {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1;  các div sản phẩm tự động giãn hết container */
+  flex-shrink: 1; /* cho phép các phần tử co lại khi độ rộng container giảm xuống */
+  margin: 5px; /* dùng khi màn hình thu nhỏ, mổi sản phẩm 1 dòng */
+}
+
+.giaNutMua {
+  display: flex;
+  flex-wrap: wrap; /* nếu co màn hình lại, không đủ không gian thì tự động wrap */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hinhSp {
+  overflow: hidden; /* để khi xoay hình, không bị tràn */
+}
+
+.hinhSp img {
+  width: 100%;
+  transition: 1s;
+}
+
+.hinhSp img:hover {
+  transform: rotate(10deg);
+}
+
+.tenSp {
+  font-weight: bold;
+  text-align: center;
+}
+
+.NutMua {
+  background-color: rgb(241, 179, 252);
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.NutMua:hover {
+  background-color: red;
+}

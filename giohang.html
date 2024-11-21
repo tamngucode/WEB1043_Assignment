@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Phần 1 menu -->
+    <section class="pMenu"></section>
+    <!-- Phần 2 giỏ hàng -->
+    <section class="p2Cart">
+      <div class="tieudeP2Cart">GIỎ HÀNG</div>
+      <div class="thanhToanCartXoaCart">
+        <div class="thanhToanCart" onclick="thanhToanGioHang();">
+          THANH TOÁN
+        </div>
+        <div class="XoaCart" onclick="XoaGioHang();">XÓA</div>
+      </div>
+    </section>
+    <div class="cacSpCart">
+      <! mổi dòng thông tin của 1 sản phẩm div class="dongSpCart"-->
+    </div>
+    <div class="khuyenMaiCartTongTienCartVATCartTongTTCart">
+      <div class="clskhuyenMaiCart">
+        <div class="tbkhuyenMai">Nhập mã khuyến mãi</div>
+        <div class="codekhuyenMaiButton">
+          <input class="codekhuyenMai" type="text" autocomplete="off" />
+          <button onclick="KhuyenMai();">></button>
+        </div>
+      </div>
+      <div class="clsTongTienCartVATCartTongTTCart">
+        <ul>
+          <li>Tổng tiền : <span class="tongTienCart"></span></li>
+          <li>VAT 5% : <span class="tongTienVATCart"></span></li>
+          <li class="giamGiaCart">Giảm giá: <span></span></li>
+          <li>Tổng thanh toán :<span class="tongThanhToanCart"></span></li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/Menu.js"></script>
+    <script src="js/giohang.js"></script>
+  </body>
+</html>

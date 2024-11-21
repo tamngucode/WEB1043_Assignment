@@ -1,0 +1,63 @@
+.pMenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgray;
+}
+
+.logo {
+  width: 40px;
+  padding: 10px;
+}
+.logo img {
+  width: 100%;
+  height: auto; /* Đặt chiều cao tự động để giữ tỷ lệ hình ảnh */
+}
+
+.menuTop {
+  list-style: none;
+  display: flex;
+}
+
+.subMenu2 {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  background-color: rgb(255, 216, 241);
+  position: absolute;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(255, 165, 249);
+  background-color: rgb(255, 117, 227);
+}
+
+.DangNhapGioHangTongSL {
+  display: flex;
+  padding: 20px;
+  padding-right: 30px;
+  
+}
+
+.TongSL {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.menuTop > li {
+  position: relative;
+}
+
+.menuTop > li:hover .subMenu2 {
+  display: flex;
+}
